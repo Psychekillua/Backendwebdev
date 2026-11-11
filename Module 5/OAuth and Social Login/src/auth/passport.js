@@ -47,8 +47,6 @@ const { users, nextId } = require('../data');
 async function verifyCallback(accessToken, refreshToken, profile, done) {
   // Replace this stub with your implementation.
   return done(null, false);
-
-
 }
 
 passport.use(
